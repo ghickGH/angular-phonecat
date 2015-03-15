@@ -4,9 +4,9 @@
 
 var phonecatServices = angular.module('phonecatServices', ['ngResource']);
 
-phonecatServices.factory('Phone', ['$resource',
+phonecatServices.factory('Program', ['$resource',
   function($resource){
-    return $resource('phones/:phoneId.json', {}, {
-      query: {method:'GET', params:{phoneId:'phones'}, isArray:true}
+    return $resource('data/programs.json', {}, {
+      query: {method:'GET', params:{programCode:'programs'}, isArray:true}
     });
   }]);
