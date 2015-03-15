@@ -17,7 +17,7 @@
       <ul class="phones">
         <li ng-repeat="prog in ctrl.programs | filter:query | orderBy:orderProp"
             class="thumbnail phone-listing">          
-          <a href="#/programs/{{prog.programCode}}">{{prog.program}} - {{prog.programName}}</a>
+          <a href="#/programs/{{prog.programCode}}">{{prog.program}} - {{prog.programName}}</a>		  
           <p>{{prog.description}}</p>
         </li>
       </ul>

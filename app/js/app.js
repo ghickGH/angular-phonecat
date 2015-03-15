@@ -5,7 +5,6 @@
 var gsbCourseApp = angular.module('gsbCourseApp', [
   'ngRoute',
   'phonecatAnimations',
-
   'gsbCourseControllers',
   'gsbCourseFilters',
   'gsbCourseServices'
@@ -17,12 +16,12 @@ gsbCourseApp.config(['$routeProvider',
       when('/programs', {
         templateUrl: 'partials/program-list.html',
         controller: 'ProgramListCtrl'
-      }).
-      when('/progams/:programCode', {
+      })
+      .when('/progams/:programCode', {
         templateUrl: 'partials/program-detail.html',
         controller: 'ProgramDetailCtrl'
-      }).
-      otherwise({
-        redirectTo: '/programs'
+      })
+      .otherwise({
+        redirectTo: '/not-found.html'
       });
   }]);
