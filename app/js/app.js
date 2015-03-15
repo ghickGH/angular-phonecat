@@ -17,11 +17,11 @@ gsbCourseApp.config(['$routeProvider',
         templateUrl: 'partials/program-list.html',
         controller: 'ProgramListCtrl'
       })
-      .when('/progams/:programCode', {
+      .when('/programs/:programCode', {
         templateUrl: 'partials/program-detail.html',
         controller: 'ProgramDetailCtrl'
       })
       .otherwise({
-        redirectTo: '/not-found.html'
+        redirectTo: '/nprograms'
       });
   }]);

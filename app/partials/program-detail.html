@@ -1,11 +1,11 @@
-<div ng-controller="ProgramDetailController as detailCtrl">
+<div ng-controller="ProgramDetailCtrl as detailCtrl">
 <div class="phone-images">
   <img ng-src="{{img}}"
        class="phone"
        ng-repeat="programName in program">
 </div>
 
-<h1>{{program.programName}}</h1>
+<h1>{{detailCtrl.code}}</h1>
 
 <p>{{phone.description}}</p>
 
