@@ -1,0 +1,34 @@
+[
+		{
+			"programCode" : "GZ52",
+			"program" : "EMCPL",
+			"programName" : "Executive Master of Business (Complex Program Leadership)",
+			"description" : "This is the EMCPL description.",
+			"units" : [
+			]
+		},
+		{
+			"programCode" : "GZ01",
+			"program" : "EMBA",
+			"programName" : "Executive Master of Business Administration",
+			"description" : "This is the EMBA description.",
+			"units" : [
+			]
+		},
+		{
+			"programCode" : "GZ02",
+			"program" : "MBA",
+			"programName" : "Master of Business Administration",
+			"description" : "This is the MBA description.",
+			"units" : [
+			]
+		},
+		{
+			"programCode" : "GZ34",
+			"program" : "PSMP",
+			"programName" : "Public Sector Management Program",
+			"description" : "This is the PSMP description.",
+			"units" : [
+			]
+		}
+	]
