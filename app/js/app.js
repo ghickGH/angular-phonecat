@@ -22,6 +22,6 @@ gsbCourseApp.config(['$routeProvider',
         controller: 'ProgramDetailCtrl'
       })
       .otherwise({
-        redirectTo: '/nprograms'
+        redirectTo: '/programs'
       });
   }]);

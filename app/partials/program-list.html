@@ -3,11 +3,11 @@
     <div class="col-md-2">
       <!--Sidebar content-->
 
-      Search: <input ng-model="ctrl.query"></input>
+      Search: <input ng-model="programs"></input>
       Sort by:
-      <select ng-model="ctrl.orderProp">
-        <option value="name">Alphabetical</option>
-        <option value="age">Newest</option>
+      <select ng-model="ctrl.programs">
+        <option value="programName">Alphabetical</option>
+        <option value="programCode">Newest</option>
       </select>
 
     </div>
@@ -15,10 +15,15 @@
       <!--Body content-->
 
       <ul class="phones">
-        <li ng-repeat="prog in ctrl.programs | filter:query | orderBy:orderProp"
+        <li ng-repeat="prog in ctrl.programs | filter:programs | orderBy:prog.orderProp"
             class="thumbnail phone-listing">          
           <a href="#/programs/{{prog.programCode}}">{{prog.program}} - {{prog.programName}}</a>		  
           <p>{{prog.description}}</p>
+		  <ul>
+			<li ng-repeat="cohort in prog.cohorts">
+				{{cohort.cohortID}} - {{cohort.cohortName}}
+			</li>
+		  </ul>
         </li>
       </ul>
 

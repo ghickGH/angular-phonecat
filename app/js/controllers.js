@@ -9,7 +9,7 @@ gsbCourseControllers.controller('ProgramListCtrl', ['Program',
 	var self = this;
 	console.log("Program List Ctrl");
 	self.programs = Program.query();
-    self.orderProp = 'program';
+    self.orderProp = 'programName';
   }]);
 
 gsbCourseControllers.controller('ProgramDetailCtrl', ['$routeParams', 'Program',

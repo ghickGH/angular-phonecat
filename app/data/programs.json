@@ -4,6 +4,33 @@
 			"program" : "EMCPL",
 			"programName" : "Executive Master of Business (Complex Program Leadership)",
 			"description" : "This is the EMCPL description.",
+			"cohorts" :
+			[				
+				{
+					"cohortID" : "B3",
+					"cohortName" : "Brisbane 3",
+					"startYear" : 2013,
+					"finishYear" : 2015,
+					"prgramAdmin" : "",
+					"intExt" : "external"
+				},
+				{
+					"cohortID" : "B4",
+					"cohortName" : "Brisbane 4",
+					"startYear" : 2014,
+					"finishYear" : 2016,
+					"prgramAdmin" : "",
+					"intExt" : "external"
+				},
+				{
+					"cohortID" : "B5",
+					"cohortName" : "Brisbane 5",
+					"startYear" : 2015,
+					"finishYear" : 2017,
+					"prgramAdmin" : "",
+					"intExt" : "external"
+				}
+			],
 			"units" : [
 			]
 		},
