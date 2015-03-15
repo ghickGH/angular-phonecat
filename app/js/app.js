@@ -16,11 +16,11 @@ phonecatApp.config(['$routeProvider',
     $routeProvider.
       when('/programs', {
         templateUrl: 'partials/program-list.html',
-        controller: 'PhoneListCtrl'
+        controller: 'ProgramListCtrl'
       }).
       when('/progams/:programCode', {
-        templateUrl: 'partials/phone-detail.html',
-        controller: 'PhoneDetailCtrl'
+        templateUrl: 'partials/program-detail.html',
+        controller: 'ProgramDetailCtrl'
       }).
       otherwise({
         redirectTo: '/programs'
