@@ -2,21 +2,25 @@
 
 /* Controllers */
 
-var phonecatControllers = angular.module('phonecatControllers', []);
+var gsbCourseControllers = angular.module('gsbCourseControllers', []);
 
-phonecatControllers.controller('ProgramListCtrl', ['$scope', 'Program',
-  function($scope, Program) {
-    $scope.programs = Program.query();
-    $scope.orderProp = 'program';
+gsbCourseControllers.controller('ProgramListCtrl', ['Program',
+  function(Program) {
+	var self = this;
+
+	self.programs = Program.query();
+    self.orderProp = 'program';
   }]);
 
-phonecatControllers.controller('ProgramDetailCtrl', ['$scope', '$routeParams', 'Program',
-  function($scope, $routeParams, Program) {
-    $scope.program = Program.get({programCode: $routeParams.programCode}, function(program) {
-      $scope.mainImageUrl = program.images[0];
+gsbCourseControllers.controller('ProgramDetailCtrl', ['$routeParams', 'Program',
+  function($routeParams, Program) {
+    var self = this;
+	self.programs = Program.query();
+	self.program = Program.get({programCode: $routeParams.programCode}, function(program) {
+     self.mainImageUrl = program.images[0];
     });
 
-    $scope.setImage = function(imageUrl) {
-      $scope.mainImageUrl = imageUrl;
+    self.setImage = function(imageUrl) {
+      self.mainImageUrl = imageUrl;
     }
   }]);

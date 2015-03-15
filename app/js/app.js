@@ -2,16 +2,16 @@
 
 /* App Module */
 
-var phonecatApp = angular.module('phonecatApp', [
+var gsbCourseApp = angular.module('gsbCourseApp', [
   'ngRoute',
   'phonecatAnimations',
 
-  'phonecatControllers',
-  'phonecatFilters',
-  'phonecatServices'
+  'gsbCourseControllers',
+  'gsbCourseFilters',
+  'gsbCourseServices'
 ]);
 
-phonecatApp.config(['$routeProvider',
+gsbCourseApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/programs', {

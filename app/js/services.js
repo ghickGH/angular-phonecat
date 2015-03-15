@@ -2,9 +2,9 @@
 
 /* Services */
 
-var phonecatServices = angular.module('phonecatServices', ['ngResource']);
+var gsbCourseServices = angular.module('gsbCourseServices', ['ngResource']);
 
-phonecatServices.factory('Program', ['$resource',
+gsbCourseServices.factory('Program', ['$resource',
   function($resource){
     return $resource('data/programs.json', {}, {
       query: {method:'GET', params:{programCode:'programs'}, isArray:true}
