@@ -1,0 +1,224 @@
+{
+				"unitId": "XXX111_11TP1",				
+				"unitCode": "template",
+				"teachingPeriod": "TP",
+				"year": 2015,
+				"course": "GZ52",
+				"stream": [
+					"CPM",
+					"SP"],
+				"unitTitle": "Unit title",
+				"creditPoints": "Credit points",
+				"prerequisites": ["nil"],
+				"corequisites": ["nil"],
+				"antirequisites": ["nil"],
+				"equivalents": ["nil"],
+				"otherRequisites": ["nil"],
+				"assumedKnowledge": ["nil"],
+				"date": ["5 Week Teaching Period 4 2014", "5 Week Teaching Period 7 2014"],
+				"coordinator": "coordinatorCode",				
+				"rationale": "This is the unit rationale.",
+				"aim": "This is the unit aim.",				
+				"unitObjectives": [
+					{"objectiveNumber": "1", "unitObjectiveText": "unit objective"},
+					{"objectiveNumber": "2", "unitObjectiveText": "unit objective"},
+					{"objectiveNumber": "3", "unitObjectiveText": "unit objective"},
+					{"objectiveNumber": "4", "unitObjectiveText": "unit objective"}
+				],
+				"content": [
+					"topic 1",
+					"topic 2",
+					"topic 3",
+					"topic 4"
+				],
+				"unitApproaches": "This is the extra text that is associated with the approaches to learning and learning section, in addition to the standard blurb.",
+				"assessment": [
+					{
+						"assessmentNumber": "1",
+						"assessmentTitle": "Assessment title",
+						"description": "This is the assessment description.",
+						"furtherDetails" : 
+						{
+							"detailedDescription" : "This is the space for supplementary details about the assessment",
+							"caseStudy" : "case study details",
+							"otherResources" : "other resources"
+						},
+						"length": {
+							"number" : "1500",
+							"unit" : "words, pages, minutes",
+							"otherLength" : "assessment length"
+						},
+						"formativeSummative": "Formative or summative or both?",
+						"relatesToLearningObjectives": ["1", "2", "3"],
+						"relatesToLearningOutcomes": ["1.1", "1.2", "2.1", "2.2", "3.1", "3.2", "4.1", "4.2", "5.1", "5.2"],
+						"weight": "40%",
+						"internalExternal": "External",
+						"groupIndividual": "Individual",
+						"dueDate": "As timetabled",
+						"CRA" : {
+							"criteria" : [
+								{
+									"criterionText" : "text",
+									"aolGoal" : "1.1",
+									"marks" : 15,
+									"standards" : [
+										{"level" : "7", "description" : "text description"},
+										{"level" : "6", "description" : "text description"},
+										{"level" : "5", "description" : "text description"},
+										{"level" : "4", "description" : "text description"},
+										{"level" : "3 to 1", "description" : "text description"}
+									]
+								},
+								{
+									"criterionText" : "text2",
+									"aolGoal" : "2.1",
+									"marks" : 15,
+									"standards" : [
+										{"level" : "7", "description" : "text description"},
+										{"level" : "6", "description" : "text description"},
+										{"level" : "5", "description" : "text description"},
+										{"level" : "4", "description" : "text description"},
+										{"level" : "3 to 1", "description" : "text description"}
+									]
+								}
+							]							
+						}
+					},
+					{
+						"assessmentNumber": "2",
+						"assessmentTitle": "Assessment title",
+						"description": "This is the assessment description.",
+						"furtherDetails" : 
+						{
+							"detailedDescription" : "This is the space for supplementary details about the assessment that aren't appropriate for the unit outline, but are otherwise useful.",
+							"caseStudy" : "case study details",
+							"otherResources" : "other resources"
+						},
+						"length": {
+							"number" : 1500,
+							"unit" : "words, pages, minutes",
+							"otherLength" : "assessment length"
+						},
+						"formativeSummative": "Formative or summative or both?",
+						"relatesToLearningObjectives": ["1", "2", "3"],
+						"relatesToLearningOutcomes": ["1.1", "1.2", "2.1", "2.2", "3.1", "3.2", "4.1", "4.2", "5.1", "5.2"],
+						"weight": "40%",
+						"internalExternal": "External",
+						"groupIndividual": "Individual",
+						"dueDate": "As timetabled"
+					}
+				],
+				"prescribedText": [					
+					{ 
+						"textID" : "bookID",
+						"confirmationStatus" : "confirmed or not confirmed",
+						"orderStatus" : "Not ordered, ordered, received, distributed"						
+					},
+					{ 
+						"textID" : "bookID",
+						"confirmationStatus" : "confirmed or not confirmed",
+						"orderStatus" : "Not ordered, ordered, received, distributed"						
+					}
+				],
+				"otherReadings": [
+					"Readings"
+				],
+				"otherResources": [
+				],
+				"associatedCohort": "cohort",
+				"classList": [
+					"studentId",
+					"studentId"
+				],
+				"distribution": {
+					"releaseDate": "rDate",
+					"openingDate": "oDate",
+					"endDate": "eDate",
+					"webinars": [
+						{
+							"webinarNo": 1,
+							"webinarDateTime": "wTime",
+							"topic": "Webinar topic",
+							"webinarURL": "webinarURL",
+							"evaluationAddress" : "evaluationURL"
+						},
+						{
+							"webinarNo": 2,
+							"webinarDateTime": "wTime",
+							"topic": "Webinar topic",
+							"webinarURL": "webinarURL",
+							"evaluationAddress" : "evaluationURL"
+						}
+					],
+					"status": [
+						{
+							"resource" : "Blackboard",
+							"required" : "yes or no",
+							"dueDate" : "date",
+							"state" : "incomplete,in development, complete, unknown",
+							"comments" : ""
+						},
+						{
+							"resource" : "Peer evaluation",
+							"required" : "yes or no",
+							"dueDate" : "date",
+							"state" : "incomplete,in development, complete, unknown",
+							"comments" : ""
+						},
+						{
+							"resource" : "Learning Guide",
+							"required" : "yes or no",
+							"dueDate" : "date",
+							"state" : "incomplete,in development, complete, unknown",
+							"comments" : ""
+						},
+						{
+							"resource" : "Unit Outline",
+							"required" : "yes or no",
+							"dueDate" : "date",
+							"state" : "incomplete,in development, complete, unknown",
+							"comments" : ""
+						},
+						{	
+							"resource" : "CRAs",
+							"required" : "yes or no",
+							"dueDate" : "date",
+							"state" : "incomplete,in development, complete, unknown",
+							"comments" : ""
+						},
+						{
+							"resource" : "CMDrequests",
+							"required" : "yes or no",
+							"dueDate" : "date",
+							"state" : "incomplete,in development, complete, unknown",
+							"comments" : ""
+						},
+						{	
+							"resource" : "sharedCalendar",
+							"required" : "yes or no",
+							"dueDate" : "date",
+							"state" : "incomplete,in development, complete, unknown",
+							"comments" : ""
+						},
+						{
+							"resource" : "Unit evaluation",
+							"required" : "yes or no",
+							"dueDate" : "date",
+							"state" : "incomplete,in development, complete, unknown",
+							"comments" : ""
+						},
+						{
+							"resource" : "results",
+							"required" : "yes or no",
+							"dueDate" : "date",
+							"state" : "incomplete,in development, complete, unknown",
+							"comments" : ""
+						}
+					],
+					"textBookOrder": {
+							"required" : "yes or no",
+							"state" : "incomplete,in development, complete, unknown",
+							"comments" : ""
+					}
+				}
+			}
