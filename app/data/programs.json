@@ -4,6 +4,7 @@
 			"program" : "EMCPL",
 			"programName" : "Executive Master of Business (Complex Program Leadership)",
 			"description" : "This is the EMCPL description.",
+			"courseCoordinator" : "staffID",
 			"cohorts" :
 			[				
 				{
@@ -11,24 +12,30 @@
 					"cohortName" : "Brisbane 3",
 					"startYear" : 2013,
 					"finishYear" : 2015,
-					"prgramAdmin" : "",
-					"intExt" : "external"
+					"learningDesigner" : "staffID",
+					"prgramAdmin" : "staffID",
+					"intExt" : "external",
+					"location" : "location name"
 				},
 				{
 					"cohortID" : "B4",
 					"cohortName" : "Brisbane 4",
 					"startYear" : 2014,
 					"finishYear" : 2016,
-					"prgramAdmin" : "",
-					"intExt" : "external"
+					"learningDesigner" : "staffID",
+					"prgramAdmin" : "staffID",
+					"intExt" : "external",
+					"location" : "location name"
 				},
 				{
 					"cohortID" : "B5",
 					"cohortName" : "Brisbane 5",
 					"startYear" : 2015,
 					"finishYear" : 2017,
-					"prgramAdmin" : "",
-					"intExt" : "external"
+					"learningDesigner" : "staffID",
+					"prgramAdmin" : "staffID",
+					"intExt" : "external",
+					"location" : "location name"
 				}
 			],
 			"units" : [
@@ -39,6 +46,7 @@
 			"program" : "EMBA",
 			"programName" : "Executive Master of Business Administration",
 			"description" : "This is the EMBA description.",
+			"courseCoordinator" : "staffID",
 			"units" : [
 			]
 		},
@@ -47,6 +55,7 @@
 			"program" : "MBA",
 			"programName" : "Master of Business Administration",
 			"description" : "This is the MBA description.",
+			"courseCoordinator" : "staffID",
 			"units" : [
 			]
 		},
@@ -55,6 +64,7 @@
 			"program" : "PSMP",
 			"programName" : "Public Sector Management Program",
 			"description" : "This is the PSMP description.",
+			"courseCoordinator" : "staffID",
 			"units" : [
 			]
 		}

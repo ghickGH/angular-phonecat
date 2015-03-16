@@ -1,0 +1,26 @@
+{
+	"students" : 
+	[
+		{
+			"studentNumber" : "01",
+			"firstname" : "Bob",
+			"lastname" : "y",
+			"email" : "email address",
+			"cohort" : "B3"
+		},
+		{
+			"studentNumber" : "02",
+			"firstname" : "Martin",
+			"lastname" : "y",
+			"email" : "email address",
+			"cohort" : "B3"
+		},
+		{
+			"studentNumber" : "03",
+			"firstname" : "Jennifer",
+			"lastname" : "y",
+			"email" : "email address",
+			"cohort" : "B3"
+		}
+	]
+}

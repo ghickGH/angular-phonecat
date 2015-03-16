@@ -1,0 +1,13 @@
+{
+	"staff" : [
+		{
+			"staffID" : "ID",
+			"title" : "Mr, Dr, etc.",
+			"firstName" : "fname 1",
+			"lastName" : "lname 1",
+			"email" : "email 1",
+			"phone" : "phone",
+			"role" : "unit coordinator, learning designer, program administrator, program manager, course coordinator"
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"textbooks" : [
+		{
+			"textbookID" : "bookID1",
+			"title" : "book title 1",
+			"authors" : [
+				{"authorName" : "name 1"},
+				{"authorName" : "name 2"},
+				{"authorName" : "name 3"}
+			],
+			"year" : "year",
+			"edition" : "",
+			"publisher" : "",
+			"place" : "",
+			"format" : "Kindle, Vitalsource, hardcopy, other",
+			"ISBN" : ""
+		}
+	]
+	
+}

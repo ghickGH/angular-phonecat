@@ -1,0 +1,392 @@
+{
+	"units": [
+			{
+				"unitId": "XXX111_11TP1",				
+				"unitCode": "template",
+				"teachingPeriod": "TP",
+				"year": 2015,
+				"course": "GZ52",
+				"stream": [
+					"CPM",
+					"SP"],
+				"unitTitle": "Unit title",
+				"creditPoints": "Credit points",
+				"prerequisites": ["nil"],
+				"corequisites": ["nil"],
+				"antirequisites": ["nil"],
+				"equivalents": ["nil"],
+				"otherRequisites": ["nil"],
+				"assumedKnowledge": ["nil"],
+				"date": ["5 Week Teaching Period 4 2014", "5 Week Teaching Period 7 2014"],
+				"coordinator": "coordinatorCode",				
+				"rationale": "This is the unit rationale.",
+				"aim": "This is the unit aim.",				
+				"unitObjectives": [
+					{"objectiveNumber": "1", "unitObjectiveText": "unit objective"},
+					{"objectiveNumber": "2", "unitObjectiveText": "unit objective"},
+					{"objectiveNumber": "3", "unitObjectiveText": "unit objective"},
+					{"objectiveNumber": "4", "unitObjectiveText": "unit objective"}
+				],
+				"content": [
+					"topic 1",
+					"topic 2",
+					"topic 3",
+					"topic 4"
+				],
+				"unitApproaches": "This is the extra text that is associated with the approaches to learning and learning section, in addition to the standard blurb.",
+				"assessment": [
+					{
+						"assessmentNumber": "1",
+						"assessmentTitle": "Assessment title",
+						"description": "This is the assessment description.",
+						"length": "assessment length",
+						"formativeSummative": "Formative or summative or both?",
+						"relatesToLearningObjectives": ["1", "2", "3"],
+						"relatesToLearningOutcomes": ["1.1", "1.2", "2.1", "2.2", "3.1", "3.2", "4.1", "4.2", "5.1", "5.2"],
+						"weight": "40%",
+						"internalExternal": "External",
+						"groupIndividual": "Individual",
+						"dueDate": "As timetabled",
+						"CRA" : {
+							"criteria" : [
+								{
+									"criterionText" : "text",
+									"aolGoal" : "1.1",
+									"marks" : 15,
+									"standards" : [
+										{"level" : "7", "description" : "text description"},
+										{"level" : "6", "description" : "text description"},
+										{"level" : "5", "description" : "text description"},
+										{"level" : "4", "description" : "text description"},
+										{"level" : "3 to 1", "description" : "text description"}
+									]
+								},
+								{
+									"criterionText" : "text2",
+									"aolGoal" : "2.1",
+									"marks" : 15,
+									"standards" : [
+										{"level" : "7", "description" : "text description"},
+										{"level" : "6", "description" : "text description"},
+										{"level" : "5", "description" : "text description"},
+										{"level" : "4", "description" : "text description"},
+										{"level" : "3 to 1", "description" : "text description"}
+									]
+								}
+							]							
+						}
+					},
+					{
+						"assessmentNumber": "2",
+						"assessmentTitle": "Assessment title",
+						"description": "This is the assessment description.",
+						"length": "assessment length",
+						"formativeSummative": "Formative or summative or both?",
+						"relatesToLearningObjectives": ["1", "2", "3"],
+						"relatesToLearningOutcomes": ["1.1", "1.2", "2.1", "2.2", "3.1", "3.2", "4.1", "4.2", "5.1", "5.2"],
+						"weight": "40%",
+						"internalExternal": "External",
+						"groupIndividual": "Individual",
+						"dueDate": "As timetabled"
+					}
+				],
+				"prescribedText": [					
+					{ 
+						"textID" : "bookID",
+						"confirmationStatus" : "confirmed or not confirmed",
+						"orderStatus" : "Not ordered, ordered, received, distributed"						
+					},
+					{ 
+						"textID" : "bookID",
+						"confirmationStatus" : "confirmed or not confirmed",
+						"orderStatus" : "Not ordered, ordered, received, distributed"						
+					}
+				],
+				"otherReadings": [
+					"Readings"
+				],
+				"otherResources": [
+				],
+				"associatedCohort": "cohort",
+				"classList": [
+					"studentId",
+					"studentId"
+				],
+				"distribution": {
+					"releaseDate": "rDate",
+					"openingDate": "oDate",
+					"endDate": "eDate",
+					"webinars": [
+						{
+							"webinarNo": 1,
+							"webinarDateTime": "wTime",
+							"topic": "Webinar topic",
+							"webinarURL": "webinarURL",
+							"evaluationAddress" : "evaluationURL"
+						},
+						{
+							"webinarNo": 2,
+							"webinarDateTime": "wTime",
+							"topic": "Webinar topic",
+							"webinarURL": "webinarURL",
+							"evaluationAddress" : "evaluationURL"
+						}
+					],
+					"status": [
+						{
+							"resource" : "Blackboard",
+							"required" : "yes or no",
+							"dueDate" : "date",
+							"state" : "incomplete,in development, complete, unknown",
+							"comments" : ""
+						},
+						{
+							"resource" : "Peer evaluation",
+							"required" : "yes or no",
+							"dueDate" : "date",
+							"state" : "incomplete,in development, complete, unknown",
+							"comments" : ""
+						},
+						{
+							"resource" : "Learning Guide",
+							"required" : "yes or no",
+							"dueDate" : "date",
+							"state" : "incomplete,in development, complete, unknown",
+							"comments" : ""
+						},
+						{
+							"resource" : "Unit Outline",
+							"required" : "yes or no",
+							"dueDate" : "date",
+							"state" : "incomplete,in development, complete, unknown",
+							"comments" : ""
+						},
+						{	
+							"resource" : "CRAs",
+							"required" : "yes or no",
+							"dueDate" : "date",
+							"state" : "incomplete,in development, complete, unknown",
+							"comments" : ""
+						},
+						{
+							"resource" : "CMDrequests",
+							"required" : "yes or no",
+							"dueDate" : "date",
+							"state" : "incomplete,in development, complete, unknown",
+							"comments" : ""
+						},
+						{	
+							"resource" : "sharedCalendar",
+							"required" : "yes or no",
+							"dueDate" : "date",
+							"state" : "incomplete,in development, complete, unknown",
+							"comments" : ""
+						},
+						{
+							"resource" : "Unit evaluation",
+							"required" : "yes or no",
+							"dueDate" : "date",
+							"state" : "incomplete,in development, complete, unknown",
+							"comments" : ""
+						},
+						{
+							"resource" : "results",
+							"required" : "yes or no",
+							"dueDate" : "date",
+							"state" : "incomplete,in development, complete, unknown",
+							"comments" : ""
+						}
+					],
+					"textBookOrder": {
+							"required" : "yes or no",
+							"state" : "incomplete,in development, complete, unknown",
+							"comments" : ""
+					}
+				}
+			},
+			{
+				"unitId": "GSZ501_155TP4",				
+				"unitCode": "GSZ501",
+				"teachingPeriod": "5TP4",
+				"year": 2015,
+				"course": "GZ52",
+				"stream": [
+					"CPM",
+					"SP"],				
+				"unitTitle": "The Strategic Management of Complex Projects",
+				"creditPoints": 6,
+				"prerequisites": ["nil"],
+				"corequisites": ["nil"],
+				"antirequisites": ["nil"],
+				"equivalents": ["GSN501"],
+				"otherRequisites": ["nil"],
+				"assumedKnowledge": ["nil"],				
+				"coordinator": "Dr Peter Beven",				
+				"rationale": "Complex projects are usually initiated to implement long range strategies in contexts of high complexity and uncertainty, where project outcomes are often emergent. This unit examines strategic and systems concepts and frameworks that will help the complex project manager to understand a project's strategic context and develop project strategies capable of delivering successful project outcomes. Strategic management competencies are developed through the application of strategic and systems concepts and frameworks to real-life case studies of complex projects. Project leaders need to understand the character of project complexity, strategic alignment and the challenges it presents. They also need innovative but frequently non-traditional development and delivery methodologies to meet these challenges. In particular they will be cognizant of uncertainty and be able to develop and implement complex projects to deal with emergence.",
+				"aim": "The aim of this unit is for students to develop skills in the strategic management of complex projects through case study analysis of real-life businesses and complex projects.",				
+				"unitObjectives": [
+					{"objectiveNumber": "1", "unitObjectiveText": "Strategically analyse organizational capabilities in the context of the external environment"},
+					{"objectiveNumber": "2", "unitObjectiveText": "Design project strategy to match emergent requirements"},
+					{"objectiveNumber": "3", "unitObjectiveText": "Interpret how the strategic management of projects is informed through multiple perspectives"},
+					{"objectiveNumber": "4", "unitObjectiveText": "Analyse innovative business planning approaches"},
+					{"objectiveNumber": "5", "unitObjectiveText": "Integrate values, ethics, and stakeholder expectations in the design of strategy"}
+				],
+				"content": [
+					"Strategic management of complex projects; issues in strategy implementation",
+					"Strategic analysis; firm and industry analysis",
+					"Internal influences on strategy execution; planning in emergent conditions and complex projects",
+					"Strategic alignment; strategic portfolio, program and project structure and process integration",
+					"Practising strategy and the management of uncertainty; managing strategy in the context of holistic thinking",
+					"Complexity in projects; complex adaptive systems; mapping project complexity and implications for strategy"
+				],
+				"unitApproaches": "This unit is one of the foundation units of the program and along with GSZ502 Systems Thinking, it opens the program. It builds a foundation of understanding of strategy that is revisited, extended and applied in more depth through the business improvement oriented set of units GSZ526 Problem Solving in Complex Environments, GSZ513 Managing Innovation in Team Based Organisations, GSZ515 Business Planning, GSZ510 Complex Projects and the Law and GSZ527 Acquisition Strategies.",
+				"assessment": [
+					{
+						"assessmentNumber": 1,
+						"assessmentTitle": "Strategy Analysis and Recommendation for a Real Client",
+						"description": "Your team will analyse a client’s strategic opportunity and present a recommended strategy to that client. In developing your presentation you need to undertake a strategic analysis of your clients case based on long-term strategy, capabilities and stakeholder expectations contrasted with the opportunity’s potential benefits and risks.  Finish your presentation with your recommendations.",
+						"length": "15 minute presentation",
+						"formativeSummative": "Formative and summative",
+						"relatesToLearningObjectives": ["1", "3", "5"],
+						"relatesToLearningOutcomes": ["1.1", "1.2", "2.1", "2.2", "5.1"],
+						"weight": "40%",
+						"internalExternal": "External",
+						"groupIndividual": "Individual",
+						"dueDate": "As timetabled"
+					},
+					{
+						"assessmentNumber": 2,
+						"assessmentTitle": "Consultancy Report",
+						"description": "After the team presentations and feedback from the client, write a consultancy report of your proposed strategies and recommendations for the client. In addition to your own ideas, you may adopt any principle, idea or other consideration that has been presented from other teams in formulating their strategy.  Your report needs to cover three broad dimensions: a strategic analysis of the opportunity, a proposed strategy planning process and recommendations for implementing the strategy.  Your consultancy report needs to include an executive summary, a set of recommendations justified with reference to theoretical and practical perspectives and a proposed plan of action.",
+						"length": "3000 words",
+						"formativeSummative": "Summative",
+						"relatesToLearningObjectives": ["1", "2", "3", "4"],
+						"relatesToLearningOutcomes": ["1.1", "1.2", "2.1", "2.2", "5.2"],
+						"weight": "60%",
+						"internalExternal": "External",
+						"groupIndividual": "Individual",
+						"dueDate": "2015-03-14T23:59:00.000+10"
+					}
+				],
+				"prescribedText": [
+					"Remmington, K., & Pollack, J. (2007). Tools for Complex Projects. Hampshire, UK: Gower.",
+					"Carter, Clegg & Kornberger (2008): A Very Short, Fairly Interesting and Reasonably Cheap Book about Studying Strategy, Sage, Los Angeles."
+				],
+				"otherReadings": [
+					"Provided on CMD and accessed from Blackboard site"
+				],
+				"otherResources": [
+					"Electronic unit learning guide",
+					"Authentic documents from client/case"
+				],
+				"associatedCohort": "B5",
+				"classList": [
+					
+				],
+				"distribution": {
+					"releaseDate": "2015-03-30T00:01+10",
+					"openingDate": "2015-04-27T00:01+10",
+					"endDate": "2015-06-01T24:00+10",
+					"webinars": [
+						{
+							"webinarNo": 1,
+							"webinarDateTime": "wTime",
+							"topic": "Webinar topic",
+							"webinarURL": "webinarURL"
+						},
+						{
+							"webinarNo": 2,
+							"webinarDateTime": "wTime",
+							"topic": "Webinar topic",
+							"webinarURL": "webinarURL"
+						}
+					],
+					"status": {
+						"blackboard": "incomplete",
+						"CATME": "NA",
+						"learningGuide": "incomplete",
+						"unitOutline": "incomplete",
+						"CRAs": "incomplete",
+						"textBookOrder": "incomplete",
+						"CMDrequests": "incomplete",
+						"sharedCalendar":"incomplete",
+						"unitEvaluation":"incomplete",
+						"results":"incomplete"
+					}
+					
+				}
+			},
+			{
+				"unitCode": "GSZ502",
+				"unitTitle": "Systems Thinking",
+				"creditPoints": 6,
+				"prerequisites": ["nil"],
+				"corequisites": ["GSN502"],
+				"antirequisites": ["nil"],
+				"equivalents": ["nil"],
+				"otherRequisites": ["nil"],
+				"assumedKnowledge": ["nil"],
+				"date": ["5 Week Teaching Period 4 2014", "5 Week Teaching Period 7 2014"],
+				"coordinator": "Associate Professor Stephane Tywoniak",				
+				"rationale": "Managers of complex projects deal with complex problems whose resolution requires holistic approaches, sophisticated thinking and pluralist methodologies. This unit provides foundational knowledge related to systems methodologies and their underpinning epistemologies that enable project managers to solve complex project problems in context.",
+				"aim": "The aim of this unit is for students to develop systems thinking skills in a reflexive process involving the application of systems methodologies in isolation and in combination as they apply to complex projects.",				
+				"unitObjectives": [
+					{"objectiveNumber": "1", "unitObjectiveText": "Use a range of systems concepts in the analysis of complex organizational problem situations."},
+					{"objectiveNumber": "2", "unitObjectiveText": "Construct an argument for adopting a systems approach to project management."},
+					{"objectiveNumber": "3", "unitObjectiveText": "Describe how systems methodologies might be used and combined to enhance the management of complex organizational problem situations, including complex projects."},
+					{"objectiveNumber": "4", "unitObjectiveText": "Demonstrate a critical synthesis of systems theories."}
+				],
+				"content": [
+					"Systems thinking and responding to the world: reductionist and holistic approaches to problem solving; relevance of systems and complexity methodologies to management of complex projects.",
+					"Epistemologies and paradigms; metaphors and creativity; processes of organisational learning and creativity",
+					"Complexity and chaos",
+					"Viable system model",
+					"Soft systems methodology",
+					"Critical systems heuristics and practice",
+					"Managing in a complex environment"
+				],
+				"unitApproaches": "This unit is the foundation unit of the program where students are introduced to the major holistic systems thinking concepts, approaches and tools.  Students are further encouraged to apply systems thinking and the tools of systems analysis throughout the course.  Their growing understanding and application of systems thinking approaches is assessed in key units such as GSZ509 Workplace Project 1, GSZ517 The International Study Tour, and GSZ524 Capstone Integrating Workplace Project. Systems Thinking  also plays a key role in the assessment tasks associated with GSZ512 Strategically Managing Risk, and GSZ518 Implementation of Complex Projects. It also builds foundational knowledge and skill that are called on in GSZ522 Accountability and Governance.",
+				"assessment": [
+					{
+						"assessmentNumber": "1",
+						"assessmentTitle": "Case Analysis Presentation",
+						"description": "Group presentation of World Trade Centre case analysis. Assume that you are a consultant asked by Mayor Giuliani to bid for the contract to assist with the unbuilding of the WTC. Your assignment begins one week after 9/11.  Explain how you would go about developing a multi-methodology approach in order to convince the Mayor that your firm is the best placed to handle the job.",
+						"length": "20 minute presentation with slides and notes",
+						"formativeSummative": "Formative and summative",
+						"relatesToLearningObjectives": ["1", "3", "4"],
+						"relatesToLearningOutcomes": ["1.1", "1.2", "2.1", "3.2", "4.2", "5.1"],
+						"weight": "40%",
+						"internalExternal": "External",
+						"groupIndividual": "Group",
+						"dueDate": "As timetabled"
+					},
+					{
+						"assessmentNumber": "2",
+						"assessmentTitle": "Analysis of a complex project case study",
+						"description": "You are asked to present your diagnostic and recommendations for a given complex project case study.  Explain how, if you had been employed as a Complex Project Management Consultant by the subject of the case, you would have used critical systems practice to ensure that the project came in according to customer specifications, on-time and within budget.",
+						"length": "3000 words",
+						"formativeSummative": "Summative",
+						"relatesToLearningObjectives": ["1", "2", "3", "4"],
+						"relatesToLearningOutcomes": ["1.1", "1.2", "2.1", "2.2", "3.1", "5.1"],
+						"weight": "60%",
+						"internalExternal": "External",
+						"groupIndividual": "Individual",
+						"dueDate": "As timetabled"
+					}
+				],
+				"prescribedText": [
+					"Jackson, M. (2003) Systems Thinking: Creative Holism for Managers UK: John Wiley and Sons, Ltd."					
+				],
+				"otherReadings": [
+					"Provided on CMD and accessed from Blackboard site"
+				],
+				"otherResources": [
+					"Electronic unit learning guide",
+					"Case study materials"
+				]
+			}
+			
+			
+		]
+
+}
