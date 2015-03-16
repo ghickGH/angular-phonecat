@@ -32,6 +32,11 @@
 					"topic 4"
 				],
 				"unitApproaches": "This is the extra text that is associated with the approaches to learning and learning section, in addition to the standard blurb.",
+				"associatedILF" : {
+					"ilfNumber" : "",
+					"ilfStartDate" : "",
+					"ilfFinishDate" : ""
+				},
 				"assessment": [
 					{
 						"assessmentNumber": "1",
