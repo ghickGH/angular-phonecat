@@ -17,11 +17,11 @@
       <ul class="phones">
         <li ng-repeat="prog in ctrl.programs | filter:programs | orderBy:prog.orderProp"
             class="thumbnail phone-listing">          
-          <a href="#/programs/{{prog.programCode}}">{{prog.program}} - {{prog.programName}}</a>		  
+         {{prog.program}} - {{prog.programName}}
           <p>{{prog.description}}</p>
 		  <ul>
 			<li ng-repeat="cohort in prog.cohorts">
-				{{cohort.cohortID}} - {{cohort.cohortName}}
+				 <a href="#/programs/{{prog.programCode}}_{{cohort.cohortID}}.json">{{cohort.cohortID}} - {{cohort.cohortName}}</a>
 			</li>
 		  </ul>
         </li>

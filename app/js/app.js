@@ -17,7 +17,7 @@ gsbCourseApp.config(['$routeProvider',
         templateUrl: 'partials/program-list.html',
         controller: 'ProgramListCtrl'
       })
-      .when('/programs/:programCode', {
+      .when('/programs/:programCohort', {
         templateUrl: 'partials/program-detail.html',
         controller: 'ProgramDetailCtrl'
       })
