@@ -220,5 +220,29 @@
 							"state" : "incomplete,in development, complete, unknown",
 							"comments" : ""
 					}
+				},
+				"issues" : [
+					{ 
+						"issueDescription" : "",
+						"raisedBy" : "",
+						"responsiblePerson" : "",
+						"issueDate" : "",
+						"immediate" : true,
+						"resolved" : false,
+						"resolutionDescription" : ""
+					}
+				],
+				"unitEvaluation" : 
+				{
+					"evaluationDate" : "",
+					"overallScore" : "",
+					"satisfaction" : "",
+					"engagement" : "",
+					"impact" : "",
+					"comments" : 
+					[
+						{"comment" : ""},
+						{"comment" : ""}
+					]
 				}
 			}
