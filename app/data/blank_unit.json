@@ -120,18 +120,22 @@
 						"orderStatus" : "Not ordered, ordered, received, distributed",
 						"quantity" : "",
 						"links" : [
-							"link" : "",
-							"distributedTo" : ""
+							{
+								"link" : "",
+								"distributedTo" : ""
+							}
 						]
 					},
 					{ 
 						"textID" : "bookID",
 						"confirmationStatus" : "confirmed or not confirmed",
-						"orderStatus" : "Not ordered, ordered, received, distributed"
+						"orderStatus" : "Not ordered, ordered, received, distributed",
 						"quantity" : "",
 						"links" : [
-							"link" : "",
-							"distributedTo" : ""
+							{
+								"link" : "",
+								"distributedTo" : ""
+							}
 						]
 					}
 				],
