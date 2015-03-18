@@ -6,21 +6,24 @@
 			"firstname" : "Bob",
 			"lastname" : "y",
 			"email" : "email address",
-			"cohort" : "B3"
+			"cohort" : "B3",
+			"status" : "active, withdrawn, deferred"
 		},
 		{
 			"studentNumber" : "02",
 			"firstname" : "Martin",
 			"lastname" : "y",
 			"email" : "email address",
-			"cohort" : "B3"
+			"cohort" : "B3",
+			"status" : "active, withdrawn, deferred"
 		},
 		{
 			"studentNumber" : "03",
 			"firstname" : "Jennifer",
 			"lastname" : "y",
 			"email" : "email address",
-			"cohort" : "B3"
+			"cohort" : "B3",
+			"status" : "active, withdrawn, deferred"
 		}
 	]
 }
